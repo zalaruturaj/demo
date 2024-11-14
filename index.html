@@ -1,0 +1,895 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <div class="container-fluid box fixed-top">
+        <div class="container text-light pt-3">
+            <div class="row py-3">
+                <!-- Logo/Brand -->
+                <div class="col-6 col-md-3">
+                    <h3 class="text-light">ARSHA</h3>
+                </div>
+
+                <!-- Toggle button for mobile view -->
+                <div class="col-6 d-block d-md-none text-end">
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <div></div>
+                        </span> <!-- Custom icon -->
+                    </button>
+                </div>
+
+                <!-- Menu for larger screens -->
+                <div class="col-md-9 d-none d-md-block navbarmenu">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a href="#" class="nav-link text-light fw-bold">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light fw-bold">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light fw-bold">Services</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light fw-bold">Portfolio</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light fw-bold">Team</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light fw-bold">Pricing</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light fw-bold">Dropdown</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light fw-bold">Contact</a></li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-info text-light rounded-pill px-4">Get Started</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Menu for mobile screens (collapsible) -->
+                <div class="collapse navbar-collapse d-md-none" id="navbarMenu">
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link text-light fw-bold">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light fw-bold">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light fw-bold">Services</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light fw-bold">Portfolio</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light fw-bold">Team</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light fw-bold">Pricing</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light fw-bold">Dropdown</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light fw-bold">Contact</a></li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-info text-light rounded-pill px-4 mt-2">Get
+                                Started</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ruturaj pb-5">
+        <div class="container text-light pt-4">
+            <div class="row align-items-center">
+                <!-- Image first on mobile -->
+                <div class="col-12 col-md-6 order-1 order-md-2">
+                    <img class="img-fluid animate__animated animate__bounceInUp" src="img/hero-img.png"
+                        alt="Hero Image">
+                </div>
+
+                <!-- Text below image on mobile -->
+                <div class="col-12 col-md-6 order-2 order-md-1 mb-4 mb-md-0">
+                    <h1 class="fw-bold box1 animate__animated animate__bounceInUp">Better Solutions For <br>
+                        Your Business</h1>
+                    <h3 class="text-secondary fs-4 animate__animated animate__bounceInUp">We are team of talented
+                        designers making
+                        websites with Bootstrap</h3>
+                    <div class="mt-4">
+                        <button type="button"
+                            class="btn btn-info ms-2 px-4 text-light rounded-pill animate__animated animate__bounceInUp">
+                            Get Started
+                        </button>
+                        <button type="button" class="btn text-light animate__animated animate__bounceInUp">
+                            <i class="fa fa-stop-circle-o" aria-hidden="true"></i> Get Started
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-secondary-subtle">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="owl-carousel owl-theme pt-4">
+                        <div class="item">
+                            <img src="img/clients/client-1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/clients/client-2.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/clients/client-3.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/clients/client-4.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/clients/client-5.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/clients/client-6.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/clients/client-7.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/clients/client-8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container about-section">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center mt-5 mb-5">ABOUT US</h2>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="icon-text mb-3">
+                    <svg class="me-1 text-success" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor"
+                        stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <p class="mb-0">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="icon-text mb-3">
+                    <svg class="me-1 text-success" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor"
+                        stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                </div>
+                <div class="icon-text">
+                    <svg class="me-1 text-success" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor"
+                        stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <p class="mb-0">Ullamco laboris nisi ut aliquip ex ea commodo</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla <br>
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa <br>
+                    qui officia deserunt mollit anim id est laborum.</p>
+                <button type="button" class="btn px-4 border-2 border-info btn-outline-info">Read More<i
+                        class="fa fa-arrow-right ms-3" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid bg-secondary-subtle mt-5">
+        <div class="container">
+            <div class="row pt-5">
+                <!-- Text and Accordion Section -->
+                <div class="col-lg-7 col-12 d-flex flex-column order-2 order-lg-1 pb-5">
+                    <h3 class="box2 fs-2">Eum ipsam laborum deleniti <strong> velit pariatur <br>
+                            architecto aut nihil</strong></h3>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>
+                        incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <span class="text-primary fw-bold">01 Non consectetur a erat nam at lectus urna
+                                        duis?</span>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
+                                    non
+                                    curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
+                                    purus
+                                    non.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <h6 class="text-primary">02 <span>Feugiat scelerisque varius morbi enim nunc
+                                            faucibus a
+                                            pellentesque?</span></h6>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
+                                    donec
+                                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
+                                    turpis massa tincidunt dui.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <h6 class="text-primary">03 <span>Dolor sit amet consectetur adipiscing elit
+                                            pellentesque?</span></h6>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
+                                    pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit.
+                                    Rutrum
+                                    tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
+                                    molestie at elementum eu facilisis sed odio morbi quis
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image Section -->
+                <div class="col-lg-5 col-12 d-flex justify-content-center align-items-center order-1 order-lg-2">
+                    <img class="img-fluid" src="img/why-us.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                <img class="img-fluid" src="img/skills.png" alt="Skills Image">
+            </div>
+            <div class="col-lg-6 col-12">
+                <h2 class="box2">Voluptatem dignissimos provident <br>
+                    quasi corporis voluptas</h2>
+                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <div class="content">
+                    <h6 class="text-start">HTML</h6>
+                    <p class="text-end">100%</p>
+                </div>
+                <div class="progress mb-4" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 100%"></div>
+                </div>
+
+                <div class="content">
+                    <h6 class="text-start mb-0">CSS</h6>
+                    <p class="text-end">90%</p>
+                </div>
+                <div class="progress mb-4" role="progressbar" aria-label="Basic example" aria-valuenow="90"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 90%"></div>
+                </div>
+
+                <div class="content">
+                    <h6 class="text-start">JAVASCRIPT</h6>
+                    <p class="text-end">75%</p>
+                </div>
+                <div class="progress mb-4" role="progressbar" aria-label="Basic example" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 75%"></div>
+                </div>
+
+                <div class="content">
+                    <h6 class="text-start">PHOTOSHOP</h6>
+                    <p class="text-end">55%</p>
+                </div>
+                <div class="progress mb-4" role="progressbar" aria-label="Basic example" aria-valuenow="55"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 55%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-secondary-subtle py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-12 text-center">
+                    <h2 class="box2">SERVICES</h2>
+                    <p class="mt-4 mb-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur
+                        velit
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <svg class="card_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path
+                                    d="M9.002 2.5a.75.75 0 0 1 .691.464l6.302 15.305 2.56-6.301a.75.75 0 0 1 .695-.468h4a.75.75 0 0 1 0 1.5h-3.495l-3.06 7.532a.75.75 0 0 1-1.389.004L8.997 5.21l-3.054 7.329A.75.75 0 0 1 5.25 13H.75a.75.75 0 0 1 0-1.5h4l3.558-8.538a.75.75 0 0 1 .694-.462Z">
+                                </path>
+                            </svg>
+                            <h5 class="card-title text-info mt-3">Lorem Ipsum</h5>
+                            <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                                excepturi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor"
+                                class="bi bi-bounding-box-circles" viewBox="0 0 16 16">
+                                <path
+                                    d="M2 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2M0 2a2 2 0 0 1 3.937-.5h8.126A2 2 0 1 1 14.5 3.937v8.126a2 2 0 1 1-2.437 2.437H3.937A2 2 0 1 1 1.5 12.063V3.937A2 2 0 0 1 0 2m2.5 1.937v8.126c.703.18 1.256.734 1.437 1.437h8.126a2 2 0 0 1 1.437-1.437V3.937A2 2 0 0 1 12.063 2.5H3.937A2 2 0 0 1 2.5 3.937M14 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2M2 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m12 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2">
+                                </path>
+                            </svg>
+                            <h5 class="card-title text-info mt-3">Sed ut perspici</h5>
+                            <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                dolore</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path
+                                    d="M6.75 0a.75.75 0 0 1 .75.75V3h9V.75a.75.75 0 0 1 1.5 0V3h2.75c.966 0 1.75.784 1.75 1.75v16a1.75 1.75 0 0 1-1.75 1.75H3.25a1.75 1.75 0 0 1-1.75-1.75v-16C1.5 3.784 2.284 3 3.25 3H6V.75A.75.75 0 0 1 6.75 0ZM21 9.5H3v11.25c0 .138.112.25.25.25h17.5a.25.25 0 0 0 .25-.25Zm-17.75-5a.25.25 0 0 0-.25.25V8h18V4.75a.25.25 0 0 0-.25-.25Z">
+                                </path>
+                            </svg>
+                            <h5 class="card-title text-info mt-3">Magni Dolores</h5>
+                            <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path
+                                    d="M20.485 2.515a.75.75 0 0 0-1.06 1.06A10.465 10.465 0 0 1 22.5 11c0 2.9-1.174 5.523-3.075 7.424a.75.75 0 0 0 1.06 1.061A11.965 11.965 0 0 0 24 11c0-3.314-1.344-6.315-3.515-8.485Zm-15.91 1.06a.75.75 0 0 0-1.06-1.06A11.965 11.965 0 0 0 0 11c0 3.313 1.344 6.314 3.515 8.485a.75.75 0 0 0 1.06-1.06A10.465 10.465 0 0 1 1.5 11c0-2.9 1.174-5.524 3.075-7.425ZM8.11 7.11a.75.75 0 0 0-1.06-1.06A6.98 6.98 0 0 0 5 11a6.98 6.98 0 0 0 2.05 4.95.75.75 0 0 0 1.06-1.061 5.48 5.48 0 0 1-1.61-3.89 5.48 5.48 0 0 1 1.61-3.888Zm8.84-1.06a.75.75 0 1 0-1.06 1.06A5.48 5.48 0 0 1 17.5 11a5.48 5.48 0 0 1-1.61 3.889.75.75 0 1 0 1.06 1.06A6.98 6.98 0 0 0 19 11a6.98 6.98 0 0 0-2.05-4.949ZM14 11a2 2 0 0 1-1.25 1.855v8.395a.75.75 0 0 1-1.5 0v-8.395A2 2 0 1 1 14 11Z">
+                                </path>
+                            </svg>
+                            <h5 class="card-title text-info mt-3">Nemo Enim</h5>
+                            <p class="card-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                                blanditiis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid box3 text-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-9 col-12 mb-3 mb-lg-0">
+                    <h2 class="box4">Call To Action</h2>
+                    <p class="box5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla
+                        pariatur. Excepteur <br>
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum
+                    </p>
+                </div>
+                <div class="col-lg-3 col-12 text-center text-lg-end">
+                    <button type="button"
+                        class="btn fw-bold box4 border-1 border-light px-4 text-light rounded-pill">Call To
+                        Action</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container">
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1">
+                <img src="img/masonry-portfolio/masonry-portfolio-1.jpg" alt="Gallery image 1" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--2">
+                <img src="img/masonry-portfolio/masonry-portfolio-2.jpg" alt="Gallery image 2" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--3">
+                <img src="img/masonry-portfolio/masonry-portfolio-3.jpg" alt="Gallery image 3" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--4">
+                <img src="img/masonry-portfolio/masonry-portfolio-4.jpg" alt="Gallery image 4" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--5">
+                <img src="img/masonry-portfolio/masonry-portfolio-5.jpg" alt="Gallery image 5" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--6">
+                <img src="img/masonry-portfolio/masonry-portfolio-6.jpg" alt="Gallery image 6" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--7">
+                <img src="img/masonry-portfolio/masonry-portfolio-7.jpg" alt="Gallery image 4" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--8">
+                <img src="img/masonry-portfolio/masonry-portfolio-8.jpg" alt="Gallery image 5" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--9">
+                <img src="img/masonry-portfolio/masonry-portfolio-9.jpg" alt="Gallery image 6" class="gallery__img">
+            </figure>
+        </div>
+    </div> -->
+    <div class="container">
+        <div class="row text-center">
+            <h1 class="mb-4 box2 mt-5">PORTFOLIO</h1>
+            <p class="mb-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1">
+                <img src="img/masonry-portfolio/masonry-portfolio-1.jpg" alt="Gallery image 1" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--2">
+                <img src="img/masonry-portfolio/masonry-portfolio-2.jpg" alt="Gallery image 2" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--3">
+                <img src="img/masonry-portfolio/masonry-portfolio-3.jpg" alt="Gallery image 3" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--4">
+                <img src="img/masonry-portfolio/masonry-portfolio-4.jpg" alt="Gallery image 4" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--5">
+                <img src="img/masonry-portfolio/masonry-portfolio-5.jpg" alt="Gallery image 5" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--6">
+                <img src="img/masonry-portfolio/masonry-portfolio-6.jpg" alt="Gallery image 6" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--7">
+                <img src="img/masonry-portfolio/masonry-portfolio-7.jpg" alt="Gallery image 4" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--8">
+                <img src="img/masonry-portfolio/masonry-portfolio-8.jpg" alt="Gallery image 5" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--9">
+                <img src="img/masonry-portfolio/masonry-portfolio-9.jpg" alt="Gallery image 6" class="gallery__img">
+            </figure>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="mb-4 box2 mt-5">TEAM</h1>
+                <p class="mb-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div>
+
+        </div>
+
+
+        <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-member d-flex align-items-start">
+                        <div class="pic"><img src="img/team/team-1.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Walter White</h4>
+                            <span>Chief Executive Officer</span>
+                            <p class="mt-3">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                            <div class="social">
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></i></a>
+                                <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End Team Member -->
+
+                <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-member d-flex align-items-start">
+                        <div class="pic"><img src="img/team/team-2.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Sarah Jhonson</h4>
+                            <span>Product Manager</span>
+                            <p class="mt-3">Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                            <div class="social">
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></i></a>
+                                <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End Team Member -->
+
+                <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                    <div class="team-member d-flex align-items-start">
+                        <div class="pic"><img src="img/team/team-3.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>William Anderson</h4>
+                            <span>CTO</span>
+                            <p class="mt-3">Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                            <div class="social">
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></i></a>
+                                <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End Team Member -->
+
+                <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                    <div class="team-member d-flex align-items-start">
+                        <div class="pic"><img src="img/team/team-4.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Amanda Jepson</h4>
+                            <span>Accountant</span>
+                            <p class="mt-3">Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                            <div class="social">
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></i></a>
+                                <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End Team Member -->
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid bg-secondary-subtle pricing">
+        <section id="pricing" class="pricing section light-background">
+
+            <!-- Section Title -->
+            <div class="container section-title aos-init aos-animate text-center" data-aos="fade-up">
+                <h2>Pricing</h2>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="pricing-item">
+                            <h3>Free Plan</h3>
+                            <h4><sup>$</sup>0<span> / month</span></h4>
+                            <ul>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> <span>Quam adipiscing vitae
+                                        proin</span></li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> <span>Nec feugiat nisl pretium</span>
+                                </li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> <span>Nulla at volutpat diam
+                                        uteera</span></li>
+                                <li class="na"><i class="fa fa-times" aria-hidden="true"></i><span>Pharetra massa massa
+                                        ultricies</span></li>
+                                <li class="na"><i class="fa fa-times" aria-hidden="true"></i><span>Massa ultricies mi
+                                        quis hendrerit</span></li>
+                            </ul>
+                            <a href="#" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div><!-- End Pricing Item -->
+
+                    <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="pricing-item featured">
+                            <h3>Business Plan</h3>
+                            <h4><sup>$</sup>29<span> / month</span></h4>
+                            <ul>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> <span>Quam adipiscing vitae
+                                        proin</span></li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> <span>Nec feugiat nisl pretium</span>
+                                </li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> <span>Nulla at volutpat diam
+                                        uteera</span></li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> <span>Pharetra massa massa
+                                        ultricies</span></li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> <span>Massa ultricies mi quis
+                                        hendrerit</span></li>
+                            </ul>
+                            <a href="#" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div><!-- End Pricing Item -->
+
+                    <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="pricing-item">
+                            <h3>Developer Plan</h3>
+                            <h4><sup>$</sup>49<span> / month</span></h4>
+                            <ul>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> <span>Quam adipiscing vitae
+                                        proin</span></li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> <span>Nec feugiat nisl pretium</span>
+                                </li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> <span>Nulla at volutpat diam
+                                        uteera</span></li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> <span>Pharetra massa massa
+                                        ultricies</span></li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> <span>Massa ultricies mi quis
+                                        hendrerit</span></li>
+                            </ul>
+                            <a href="#" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div><!-- End Pricing Item -->
+
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+    <div class="container">
+        <section id="contact" class="contact section">
+
+            <!-- Section Title -->
+            <div class="container section-title text-center aos-init aos-animate" data-aos="fade-up">
+                <h2>Contact</h2>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div><!-- End Section Title -->
+
+            <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-5">
+
+                        <div class="info-wrap">
+                            <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                                <i class="fa fa-map-marker flex-shrink-0" aria-hidden="true"></i>
+                                <div>
+                                    <h3>Address</h3>
+                                    <p>A108 Adam Street, New York, NY 535022</p>
+                                </div>
+                            </div><!-- End Info Item -->
+
+                            <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <div>
+                                    <h3>Call Us</h3>
+                                    <p>+1 5589 55488 55</p>
+                                </div>
+                            </div><!-- End Info Item -->
+
+                            <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <div>
+                                    <h3>Email Us</h3>
+                                    <p>info@example.com</p>
+                                </div>
+                            </div><!-- End Info Item -->
+
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                                frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen=""
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7"
+                        style="border-top: 3px solid;border-bottom: 3px solid;color: #47b2e4;box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);padding: 30px;">
+                        <form action="forms/contact.php" method="post" class="php-email-form aos-init aos-animate"
+                            data-aos="fade-up" data-aos-delay="200">
+                            <div class="row gy-4">
+
+                                <div class="col-md-6">
+                                    <label for="name-field" class="pb-2">Your Name</label>
+                                    <input type="text" name="name" id="name-field" class="form-control" required="">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="email-field" class="pb-2">Your Email</label>
+                                    <input type="email" class="form-control" name="email" id="email-field" required="">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <label for="subject-field" class="pb-2">Subject</label>
+                                    <input type="text" class="form-control" name="subject" id="subject-field"
+                                        required="">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <label for="message-field" class="pb-2">Message</label>
+                                    <textarea class="form-control" name="message" rows="10" id="message-field"
+                                        required=""></textarea>
+                                </div>
+
+                                <div class="col-md-12 text-center">
+                                    <button class="contact_button" type="submit">Send Message</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div><!-- End Contact Form -->
+
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+    <div class="container-fluid bg-light footer_section">
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <a href="index.html" class="d-flex align-items-center">
+                        <span class="sitename">Arsha</span>
+                    </a>
+                    <div class="footer-contact pt-3">
+                        <p>A108 Adam Street</p>
+                        <p>New York, NY 535022</p>
+                        <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+                        <p><strong>Email:</strong> <span>info@example.com</span></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-12">
+                    <h4>Follow Us</h4>
+                    <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+                    <div class="social-links d-flex">
+                        <a href=""><i class="bi bi-twitter-x"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <footer class="footer bg-danger">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 mt-4 col-lg-3 text-center text-sm-start">
+                <div class="information">
+                    <h6 class="footer-heading text-uppercase text-white fw-bold">Information</h6>
+                    <ul class="list-unstyled footer-link mt-4">
+                        <li class="mb-1"><a href="https://codepen.io/Gaurav-Rana-the-reactor" class="text-white text-decoration-none fw-semibold">Events</a></li>
+                        <li class="mb-1"><a href="https://codepen.io/Gaurav-Rana-the-reactor" class="text-white text-decoration-none fw-semibold">Our Team</a></li>
+                        <li class="mb-1"><a href="https://codepen.io/Gaurav-Rana-the-reactor" class="text-white text-decoration-none fw-semibold">Upcoming Sale</a></li>
+                        <li class=""><a href="https://codepen.io/Gaurav-Rana-the-reactor" class="text-white text-decoration-none fw-semibold">New Launches</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 mt-4 col-lg-3 text-center text-sm-start">
+                <div class="resources">
+                    <h6 class="footer-heading text-uppercase text-white fw-bold">Resources</h6>
+                    <ul class="list-unstyled footer-link mt-4">
+                        <li class="mb-1"><a href="https://codepen.io/Gaurav-Rana-the-reactor" class="text-white text-decoration-none fw-semibold">API</a></li>
+                        <li class="mb-1"><a href="https://codepen.io/Gaurav-Rana-the-reactor" class="text-white text-decoration-none fw-semibold">Website Tutorials</a></li>
+                        <li class="mb-1"><a href="https://codepen.io/Gaurav-Rana-the-reactor" class="text-white text-decoration-none fw-semibold">Third Party</a></li>
+                        <li class=""><a href="https://codepen.io/Gaurav-Rana-the-reactor" class="text-white text-decoration-none fw-semibold">Video Lectures</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 mt-4 col-lg-2 text-center text-sm-start">
+              <div class="social">
+                  <h6 class="footer-heading text-uppercase text-white fw-bold">Social</h6>
+                  <ul class="list-inline my-4">
+                    <li class="list-inline-item"><a href="https://codepen.io/Gaurav-Rana-the-reactor" class="text-white btn-sm btn btn-primary mb-2"><i class="bi bi-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="https://codepen.io/Gaurav-Rana-the-reactor" class="text-danger btn-sm btn btn-light mb-2"><i class="bi bi-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="https://codepen.io/Gaurav-Rana-the-reactor" class="text-white btn-sm btn btn-primary mb-2"><i class="bi bi-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="https://codepen.io/Gaurav-Rana-the-reactor" class="text-white btn-sm btn btn-success mb-2"><i class="bi bi-whatsapp"></i></a></li>
+                </ul>
+              </div>
+          </div>
+            <div class="col-sm-6 col-md-6 mt-4 col-lg-4 text-center text-sm-start">
+              <div class="contact">
+                  <h6 class="footer-heading text-uppercase text-white fw-bold">Contact Us</h6>
+                  <address class="mt-4 m-0 text-white mb-1"><i class="bi bi-pin-map fw-semibold"></i> New South Block , Phase 8B , 160055</address>
+                  <a href="tel:+" class="text-white mb-1 text-decoration-none d-block fw-semibold"><i class="bi bi-telephone"></i>  909090XXXX</a>
+                  <a href="mailto:" class="text-white mb-1 text-decoration-none d-block fw-semibold"><i class="bi bi-envelope"></i> xyzdemomail@gmail.com</a>
+                  <a href="" class="text-white text-decoration-none fw-semibold"><i class="bi bi-skype"></i> xyzdemomail</a>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center bg-dark text-white mt-4 p-1">
+        <p class="mb-0 fw-bold">2023 © Gaurav Rana, All Rights Reserved</p>
+    </div>
+  </footer> -->
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                items: 6, // Number of items to display on large screens
+                loop: true,
+                dots: false,
+                margin: 20, // Adjust the margin between images
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 2 // Number of items to display on small screens
+                    },
+                    600: {
+                        items: 3 // Number of items to display on medium screens
+                    },
+                    1000: {
+                        items: 6 // Number of items to display on large screens
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+
+
